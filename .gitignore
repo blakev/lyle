@@ -3,6 +3,8 @@
 .env
 .temp
 
+bin
+
 # Logs
 logs
 *.log

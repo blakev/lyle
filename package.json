@@ -2,7 +2,7 @@
   "name": "lyle",
   "version": "0.0.1",
   "description": "League of Legends history tracker.",
-  "main": "index.js",
+  "main": "app://lyle/index.html",
   "scripts": {
     "test": "mocha test/*"
   },
@@ -28,6 +28,17 @@
   },
   "dependencies": {
     "async": "^0.9.0",
+    "grunt-cli": "^0.1.13",
+    "nedb": "^0.11.1",
     "underscore": "^1.7.0"
+  },
+  "window": {
+    "title": "lyle : League of Legends History Tracker",
+    "width": 960,
+    "height": 600,
+    "min_width": 720,
+    "min_height": 540,
+    "resizable": true,
+    "toolbar": false
   }
 }
